@@ -7,12 +7,15 @@ body {
 
 /* Банер */
 .banner {
-    width: 100%;
+    width: 80%; /* Встановлюємо ширину банеру */
     height: 400px;
     background-image: url('images/image2.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
+    margin: 0 auto; /* Центруємо банер */
+    border: 3px solid #4CAF50; /* Додаємо рамку */
+    border-radius: 10px; /* Заокруглюємо кути */
 }
 
 .banner::after {
@@ -34,6 +37,7 @@ body {
     font-size: 3rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
 
 /* Основний контент */
 .main-content {
